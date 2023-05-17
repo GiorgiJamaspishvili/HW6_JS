@@ -1,7 +1,11 @@
 @media(max-width: 480px){
     .navigation{
         display: none;
+        background-image: url("/pics/pic.jpg");
+        background-position: center;
+        top: 50%;
     }
+    
     #toggleButton{
         display: block;
     }
@@ -18,6 +22,9 @@
         width: 100%;
     }
 
-    
+    .a_nav{
+        font-size: 50px;
+        color: white;
+    }
 
 }

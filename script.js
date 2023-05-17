@@ -164,5 +164,4 @@ let burgerElement = document.getElementById('toggleButton');
 burgerElement.addEventListener('click', function (){
     navigationElement.classList.toggle('activeNav');
     burgerElement.classList.toggle('activeLine');
-
 })
