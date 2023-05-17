@@ -1,0 +1,15 @@
+.sec{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    border: solid 5px red;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.inputClass{
+    outline: none;
+}
