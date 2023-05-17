@@ -50,20 +50,20 @@
 
 
 
-let inputFieldText = document.querySelector(".input-Class");
-let buttonAdd = document.querySelector(".btn-add");
-let ulItem = document.querySelector(".ul-list");
-// let ClearAll = document.querySelector(".clearAllitems");
-// let formElement = document.querySelector(".form-element");
+// let inputFieldText = document.querySelector(".input-Class");
+// let buttonAdd = document.querySelector(".btn-add");
+// let ulItem = document.querySelector(".ul-list");
+// // let ClearAll = document.querySelector(".clearAllitems");
+// // let formElement = document.querySelector(".form-element");
 
-buttonAdd.addEventListener('click', function(){
-    let inputValue = inputFieldText.value;
-    let liElement = document.createElement('li');
-    liElement.textContent = inputValue;
-    ulItem.appendChild(liElement);
-    inputFieldText.value = " ";
+// buttonAdd.addEventListener('click', function(){
+//     let inputValue = inputFieldText.value;
+//     let liElement = document.createElement('li');
+//     liElement.textContent = inputValue;
+//     ulItem.appendChild(liElement);
+//     inputFieldText.value = " ";
 
-})
+// })
 
 
 
@@ -144,3 +144,25 @@ buttonAdd.addEventListener('click', function(){
 
 
 // document.querySelector('.delete_items').appendChild(elementTrash);
+
+
+
+
+
+
+
+
+
+
+// დავალება 1:
+// დაამატეთ ბურგერის ლოგიკა. ბურგერი უნდა ააწყოთ ან დივებით ან სპანებით. დაჭერის დროს უნდა გამოხნდეს x ვიზუალი და ლამაზად გამოჩნდეს დამალული სანავიგაციო სტრუქტურა. მაგ: https://camex.ge https://www.galleria.ge 
+
+
+let navigationElement = document.getElementById('navigationElement');
+let burgerElement = document.getElementById('toggleButton');
+
+burgerElement.addEventListener('click', function (){
+    navigationElement.classList.toggle('activeNav');
+    burgerElement.classList.toggle('activeLine');
+
+})

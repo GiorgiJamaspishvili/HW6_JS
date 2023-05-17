@@ -1,0 +1,23 @@
+@media(max-width: 480px){
+    .navigation{
+        display: none;
+    }
+    #toggleButton{
+        display: block;
+    }
+    .div_wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav_ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation.activeNav{
+        display: block;
+        width: 100%;
+    }
+
+    
+
+}
